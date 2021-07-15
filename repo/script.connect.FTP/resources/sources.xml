@@ -1,0 +1,35 @@
+<sources>
+    <programs>
+        <default pathversion="1" />
+    </programs>
+    <video>
+        <default pathversion="1" />
+        <source>
+            <name>Nur English</name>
+            <path pathversion="1">ftp://ausernamea:apwda@4k6qpf10oygosoxr.myfritz.net/Nur English</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Serien</name>
+            <path pathversion="1">ftp://ausernamea:apwda@4k6qpf10oygosoxr.myfritz.net/Serien</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Deutsch</name>
+            <path pathversion="1">ftp://ausernamea:apwda@4k6qpf10oygosoxr.myfritz.net/Deutsch</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1" />
+    </music>
+    <pictures>
+        <default pathversion="1" />
+    </pictures>
+    <files>
+        <default pathversion="1" />
+    </files>
+    <games>
+        <default pathversion="1" />
+    </games>
+</sources>
