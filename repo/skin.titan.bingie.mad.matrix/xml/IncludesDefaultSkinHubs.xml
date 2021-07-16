@@ -34,19 +34,19 @@
         <onload>Skin.SetString(bingiehub-movies-540.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-movies-540.path, plugin://script.skin.helper.widgets/?action=browsegenres&amp;mediatype=movies&amp;limit=1000</onload>
         <!-- movies hub - widget 5 -->
-        <onload>Skin.SetString(bingiehub-movies-550.label)[CAPITALIZE]$LOCALIZE[31078][/CAPITALIZE])</onload></onload>
+        <onload>Skin.SetString(bingiehub-movies-550.label)[CAPITALIZE]$LOCALIZE[31078][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-550.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-movies-550.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=movies&amp;tag=[blockbustermovies]</onload>
         <!-- movies hub - widget 6 -->
-        <onload>Skin.SetString(bingiehub-movies-560.label)[CAPITALIZE]$LOCALIZE[31164][/CAPITALIZE])</onload></onload>
+        <onload>Skin.SetString(bingiehub-movies-560.label)[CAPITALIZE]$LOCALIZE[31164][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-560.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-movies-560.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=movies&amp;tag=[actionandcrimemovies]</onload>
         <!-- movies hub - widget 7 -->
-        <onload>Skin.SetString(bingiehub-movies-570.label)[CAPITALIZE]$LOCALIZE[31157][/CAPITALIZE])</onload></onload>
+        <onload>Skin.SetString(bingiehub-movies-570.label)[CAPITALIZE]$LOCALIZE[31157][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-570.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-movies-570.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=movies&amp;tag=[comedymovies]</onload>
         <!-- movies hub - widget 8 -->
-        <onload>Skin.SetString(bingiehub-movies-580.label)[CAPITALIZE]$LOCALIZE[31194][/CAPITALIZE])</onload></onload>
+        <onload>Skin.SetString(bingiehub-movies-580.label)[CAPITALIZE]$LOCALIZE[31194][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-580.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-movies-580.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=movies&amp;tag=[syfymovies]</onload>
 

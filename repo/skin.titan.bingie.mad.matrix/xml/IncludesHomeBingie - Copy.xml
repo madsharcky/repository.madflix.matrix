@@ -485,7 +485,7 @@
 				<height>165</height>
 				<visible></visible>
 				<aspectratio align="left">keep</aspectratio>
-				<texture>home/netflix_logo.png</texture>
+				<texture>home/madflix_logo.png</texture>
 				<colordiffuse></colordiffuse>
 			</control>
 				

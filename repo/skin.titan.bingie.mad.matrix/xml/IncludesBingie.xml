@@ -1711,7 +1711,7 @@ Bingie Menu Icons -->
     </include>
 
     <variable name="Bingie_Logo">
-        <value condition="String.IsEmpty(Skin.String(CustomLogoImage))">bingie_logo.png</value>
+        <value condition="String.IsEmpty(Skin.String(CustomLogoImage))">madflix_logo.png</value>
         <value condition="!String.IsEmpty(Skin.String(CustomLogoImage))">$INFO[Skin.String(CustomLogoImage)]</value>
     </variable>
 
