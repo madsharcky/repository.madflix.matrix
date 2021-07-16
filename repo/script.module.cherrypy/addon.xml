@@ -17,8 +17,5 @@
         <license>BSD</license>
         <source>https://github.com/marcelveldt/script.module.cherrypy</source>
         <platform>all</platform>
-<assets>
-            <icon>icon.png</icon>
-        </assets>
     </extension>
 </addon>

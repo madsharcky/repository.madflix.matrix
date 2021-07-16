@@ -29,10 +29,6 @@
 		<summary lang="en">Pack of images that can be used as background overlay</summary>
 		<description lang="en">Pack of images that can be used as background overlay</description>
 		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
 	</extension>
 </addon>
 
@@ -45,9 +41,6 @@
 		<summary lang="en">Animated Busy Spinners Pack - Titan</summary>
 		<description lang="en">Animated Busy Spinners Pack - Titan</description>
 		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
@@ -65,10 +58,6 @@
 		<forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
 		<website></website>
 		<source>https://github.com/cartmandos/resource.images.moviegenreicons.bingie/</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
 	</extension>
 </addon>
 
@@ -81,10 +70,6 @@
 		<summary lang="en">Skin Backgrounds Pack - Titanium</summary>
 		<description lang="en">Skin Backgrounds Pack - Titanium</description>
 		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
 	</extension>
 </addon>
 
@@ -101,9 +86,6 @@
 		<forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
 		<website></website>
 		<source>https://github.com/cartmandos/resource.images.skinicons.wide/</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
@@ -206,9 +188,6 @@
         <license>BSD</license>
         <source>https://github.com/marcelveldt/script.module.cherrypy</source>
         <platform>all</platform>
-<assets>
-            <icon>icon.png</icon>
-        </assets>
     </extension>
 </addon>
 
@@ -230,7 +209,7 @@
 		<news>Python3 ver Adjust to latest core changes, bugfixes, API extensions by scott967</news>
 	</extension>
 	<assets>
-		<icon>icon.png</icon>
+		<icon>resources/icon.png</icon>
 	</assets>
 </addon>
 
@@ -337,9 +316,6 @@ v1.0.25 (marcelveldt)
     <license>GNU GENERAL PUBLIC LICENSE V3</license>
     <source>https://github.com/kodi-community-addons/script.module.musicbrainz</source>
     <platform>all</platform>
-<assets>
-            <icon>icon.png</icon>
-        </assets>
   </extension>
 </addon>
 
@@ -356,7 +332,7 @@ v1.0.25 (marcelveldt)
         <forum/>
         <source>https://github.com/sualfred/script.module.simplecache</source>
         <assets>
-            <icon>icon.png</icon>
+            <icon>resources/icon.png</icon>
         </assets>
     </extension>
 </addon>
@@ -379,9 +355,6 @@ v1.0.25 (marcelveldt)
         <license>Apache 2.0</license>
         <source>https://github.com/kodi-community-addons/script.module.thetvdb</source>
         <platform>all</platform>
-<assets>
-            <icon>icon.png</icon>
-        </assets>
     </extension>
 </addon>
 
@@ -424,8 +397,8 @@ v1.0.25 (marcelveldt)
 		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
@@ -726,10 +699,6 @@ Version 1.0.37
 		<forum>http://forum.xbmc.org/showthread.php?tid=186090</forum>
 		<website>http://github.com/marcelveldt/script.tv.show.next.aired</website>
 		<source>https://github.com/marcelveldt/script.tv.show.next.aired.git</source>
-<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
 	</extension>
 </addon>
 

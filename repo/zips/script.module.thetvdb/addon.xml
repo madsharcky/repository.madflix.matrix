@@ -17,8 +17,5 @@
         <license>Apache 2.0</license>
         <source>https://github.com/kodi-community-addons/script.module.thetvdb</source>
         <platform>all</platform>
-<assets>
-            <icon>icon.png</icon>
-        </assets>
     </extension>
 </addon>

@@ -71,9 +71,5 @@
 		<forum>http://forum.xbmc.org/showthread.php?tid=186090</forum>
 		<website>http://github.com/marcelveldt/script.tv.show.next.aired</website>
 		<source>https://github.com/marcelveldt/script.tv.show.next.aired.git</source>
-<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
 	</extension>
 </addon>
