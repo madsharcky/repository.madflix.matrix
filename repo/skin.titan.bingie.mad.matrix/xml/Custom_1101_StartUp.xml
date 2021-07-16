@@ -36,7 +36,7 @@
 						<width>100%</width>
 						<height>100%</height>
 						<aspectratio align="center">keep</aspectratio>
-						<texture background="true">bingie_logo.png</texture>
+						<texture background="true">madflix_logo.png</texture>
 					</control>
 				</control>
 				<!-- headline -->
@@ -102,7 +102,7 @@
 						<onclick>RunScript(script.skin.helper.service,action=setkodisetting,setting=videolibrary.flattentvshows,value=2)</onclick>
 						<onclick>RunScript(script.skin.helper.service,action=setkodisetting,setting=myvideos.selectaction,value=2)</onclick>
 						<onclick>AlarmClock(clear_property,ClearProperty(finishBingieStartup1,Home),00:02,silent)</onclick>
-						<onclick>AlarmClock(delay_window,ReplaceWindow($VAR[StartUpWindow]),00:01,silent)</onclick>
+						<onclick>AlarmClock(delay_window,ReplaceWindow($VAR[StartUpWindow]),00:03,silent)</onclick>
 						<onup>PageUp(3000)</onup>
 						<ondown>PageDown(3000)</ondown>
 					</control>

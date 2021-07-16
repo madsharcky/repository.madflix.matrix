@@ -1563,8 +1563,8 @@ msgid "Use 'Options' text instead of arrow indicator"
 msgstr ""
 
 msgctxt "#31387"
-msgid "Welcome to Titan BINGIE MOD"
-msgstr "Welcome to Madflix"
+msgid "Welcome to Madflix"
+msgstr ""
 
 msgctxt "#31388"
 msgid ""
