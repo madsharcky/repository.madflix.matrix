@@ -108,7 +108,7 @@
 						<onclick>SetProperty(finishBingieStartup2,1,Home)</onclick>
 						<onclick>UpdateLibrary(video)</onclick>>
 						<onclick>AlarmClock(clear_property,ClearProperty(finishBingieStartup2,Home),00:02,silent)</onclick>
-						<onclick>AlarmClock(delay_window,ReplaceWindow($VAR[StartUpWindow]),00:01,silent)</onclick>
+						<onclick>AlarmClock(delay_window,ReplaceWindow($VAR[home]),00:01,silent)</onclick>
 						<onup>PageUp(3000)</onup>
 						<ondown>PageDown(3000)</ondown>
 					</control>
