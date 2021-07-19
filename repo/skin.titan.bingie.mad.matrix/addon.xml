@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- BINGIE -->
-<addon id="skin.titan.bingie.mad.matrix" version="1.1" name="Madflix" provider-name="madsharcky">
+<addon id="skin.titan.bingie.mad.matrix" version="1.2" name="Madflix" provider-name="madsharcky">
 	<requires>
 		<import version="5.15.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.0.0"/>
