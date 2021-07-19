@@ -717,7 +717,7 @@
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
 			<property name="mainmenuid">9</property>
-			<label>Exit Netflix</label>
+			<label>Exit Madflix</label>
 			<label2>Kodi Command</label2>
 			<icon>common/exit1.png</icon>
 			<thumb />
@@ -1678,7 +1678,7 @@
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
 			<property name="mainmenuid">9</property>
-			<label>Exit Netflix</label>
+			<label>Exit Madflix</label>
 			<label2>Kodi Command</label2>
 			<icon>common/exit1.png</icon>
 			<thumb />
@@ -1801,7 +1801,7 @@
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
 			<property name="mainmenuid">9</property>
-			<label>Exit Netflix</label>
+			<label>Exit Madflix</label>
 			<label2>Kodi Command</label2>
 			<icon>common/exit1.png</icon>
 			<thumb />
