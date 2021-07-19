@@ -24,4 +24,12 @@
 		<thumb />
 		<action>Quit()</action>
 	</shortcut>
+	<shortcut>
+		<defaultID>9999999</defaultID>
+		<label>Re-Login</label>
+		<label2>Kodi Command</label2>
+		<icon>common/settings2.png</icon>
+		<thumb />
+		<action>RunAddon(script.connect.FTP)</action>
+	</shortcut>
 </shortcuts>
