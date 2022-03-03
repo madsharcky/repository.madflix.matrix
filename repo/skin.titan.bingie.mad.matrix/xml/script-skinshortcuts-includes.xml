@@ -46,8 +46,8 @@
 			<property name="widget.2">Playlist</property>
 			<property name="widgetTarget.2">videos</property>
 			<property name="widgetType.2">tvshows</property>
-			<property name="widgetPath.2">special://skin/playlists/bingeworthyshows.xsp</property>
-			<property name="widgetName.2">Bingeworthy TV Shows</property>
+			<property name="widgetPath.2">special://skin/playlists/inprogresstvshows.xsp</property>
+			<property name="widgetName.2">In Progress TV Shows</property>
 			<property name="widget.3">Playlist</property>
 			<property name="widgetTarget.3">videos</property>
 			<property name="widgetType.3">movies</property>
@@ -56,25 +56,8 @@
 			<property name="widget.4">Playlist</property>
 			<property name="widgetTarget.4">videos</property>
 			<property name="widgetType.4">movies</property>
-			<property name="widgetPath.4">special://skin/playlists/criticallyacclaimedmovies.xsp</property>
-			<property name="widgetName.4">Critically-Acclaimed Movies</property>
-			<property name="widget.6">Playlist</property>
-			<property name="widgetTarget.6">videos</property>
-			<property name="widgetType.6">movies</property>
-			<property name="widgetPath.6">special://skin/playlists/imdbtop250Movies.xsp</property>
-			<property name="widgetName.6">IMDB Top 250 Movies</property>
-			<property name="widget.7">Playlist</property>
-			<property name="widgetTarget.7">videos</property>
-			<property name="widgetType.7">tvshows</property>
-			<property name="widgetPath.7">special://skin/playlists/imdbtop250TV.xsp</property>
-			<property name="widgetName.7">IMDB Top 250 TV Shows</property>
-			<property name="widget.5">Playlist</property>
-			<property name="widgetName.5">In Progress TV Shows</property>
-			<property name="widgetType.5">tvshows</property>
-			<property name="widgetTarget.5">videos</property>
-			<property name="widgetPath.5">special://skin/playlists/inprogresstvshows.xsp</property>
-			<property name="widgetName.5.name">Because You Watched</property>
-			<property name="widgetName.5Name">Because You Watched</property>
+			<property name="widgetPath.4">special://skin/playlists/mylistmovies.xsp</property>
+			<property name="widgetName.4">My List Movies</property>
 			<property name="widgetName.1.name">Recently Added</property>
 			<property name="widgetName.1Name">Recently Added</property>
 			<property name="widgetName.name">Continue Watching</property>
@@ -93,28 +76,7 @@
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">False</property>
 		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<label>New &amp; Popular</label>
-			<label2>New &amp; Popular</label2>
-			<icon>shortcuts/new.png</icon>
-			<thumb />
-			<property name="labelID">new-popular</property>
-			<property name="defaultID">new-popular</property>
-			<visible>String.IsEqual(Skin.String(HomeLayout),bingie)</visible>
-			<onclick condition="String.IsEqual(Skin.String(HomeLayout),bingie) + $EXP[IsPlayingUnrecognizedContent]">PlayerControl(Stop)</onclick>
-			<onclick condition="[String.IsEmpty(Container(4445).NumItems) | Integer.IsEqual(Container(4445).NumItems,0)] | ![Skin.HasSetting(OpenSubMenuOnClick) | String.IsEqual(Skin.String(HomeLayout),win10)]">ActivateWindow(1112,return)</onclick>
-			<property name="path">ActivateWindow(1112,return)</property>
-			<property name="list">1112</property>
-			<onclick condition="[String.IsEmpty(Container(4445).NumItems) | Integer.IsEqual(Container(4445).NumItems,0)] | ![Skin.HasSetting(OpenSubMenuOnClick) | String.IsEqual(Skin.String(HomeLayout),win10)]">SetProperty(flushWidgetProps,1,Home)</onclick>
-			<onclick condition="Integer.IsGreater(Container(4445).NumItems,0) + [Skin.HasSetting(OpenSubMenuOnClick) | String.IsEqual(Skin.String(HomeLayout),win10)]">SetFocus(4444,0)</onclick>
-			<onclick condition="String.IsEqual(Skin.String(HomeLayout),bingie) + $EXP[IsKnownMenuEntryPath]">ClearProperty(ShowViewSubMenu,Home)</onclick>
-			<onclick condition="String.IsEqual(Skin.String(HomeLayout),bingie) + $EXP[IsKnownMenuEntryPath]">SetFocus($VAR[MenuEntryOverrideFocus])</onclick>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">new-popular</property>
-			<property name="group">mainmenu</property>
-			<property name="hasSubmenu">False</property>
-		</item>
+		
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
 			<label>$LOCALIZE[20343]</label>
@@ -125,6 +87,26 @@
 			<property name="defaultID">tvshows</property>
 			<property name="background">$INFO[Window(Home).Property(SkinHelper.AllTvShowsBackground)]</property>
 			<property name="backgroundName">$ADDON[script.skin.helper.service 32043]</property>
+			<property name="widget.95">Playlist</property>
+			<property name="widgetTarget.95">videos</property>
+			<property name="widgetType.95">tvshows</property>
+			<property name="widgetPath.95">special://skin/playlists/disney+.xsp</property>
+			<property name="widgetName.95">Disney+</property>
+			<property name="widget.96">Playlist</property>
+			<property name="widgetTarget.96">videos</property>
+			<property name="widgetType.96">tvshows</property>
+			<property name="widgetPath.96">special://skin/playlists/inprogresstvshows.xsp</property>
+			<property name="widgetName.96">In Progress TV Shows</property>
+			<property name="widget.97">Playlist</property>
+			<property name="widgetTarget.97">videos</property>
+			<property name="widgetType.97">tvshows</property>
+			<property name="widgetPath.97">special://skin/playlists/netflixoriginalseries.xsp</property>
+			<property name="widgetName.97">Netflix Originals</property>
+			<property name="widget.98">Playlist</property>
+			<property name="widgetTarget.98">videos</property>
+			<property name="widgetType.98">tvshows</property>
+			<property name="widgetPath.98">special://skin/playlists/criticallyacclaimedtvshows.xsp</property>
+			<property name="widgetName.98">Critically Acclaimed TV Shows</property>
 			<property name="widget.99">spotlighttvshows</property>
 			<property name="widgetTarget.99">videos</property>
 			<property name="widgetType.99">tvshows</property>
@@ -159,16 +141,26 @@
 			<property name="defaultID">movies</property>
 			<property name="background">$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</property>
 			<property name="backgroundName">$ADDON[script.skin.helper.service 32039]</property>
-			<property name="widget.99">spotlightmovies</property>
-			<property name="widgetTarget.99">videos</property>
-			<property name="widgetType.99">movies</property>
-			<property name="widgetName.99">$LOCALIZE[31185]</property>
-			<property name="widgetPath.99">special://skin/extras/widgetplaylists/recommendedmovies.xsp</property>
 			<property name="widget">Playlist</property>
-			<property name="widgetName">4K Movies</property>
-			<property name="widgetType">movies</property>
 			<property name="widgetTarget">videos</property>
-			<property name="widgetPath">special://skin/playlists/4kmovies.xsp</property>
+			<property name="widgetType">movies</property>
+			<property name="widgetPath">special://skin/playlists/inprogressmovies.xsp</property>
+			<property name="widgetName">In Progress Movies</property>
+			<property name="widget.1">Playlist</property>
+			<property name="widgetTarget.1">videos</property>
+			<property name="widgetType.1">movies</property>
+			<property name="widgetPath.1">special://skin/playlists/mylistmovies.xsp</property>
+			<property name="widgetName.1">My List</property>
+			<property name="widget.2">Playlist</property>
+			<property name="widgetTarget.2">videos</property>
+			<property name="widgetType.2">movies</property>
+			<property name="widgetName.2">New Releases</property>
+			<property name="widgetPath.2">special://skin/extras/widgetplaylists/newreleasemovies.xsp</property>
+			<property name="widget.3">Playlist</property>
+			<property name="widgetTarget.3">videos</property>
+			<property name="widgetType.3">movies</property>
+			<property name="widgetName.3">Recently Added</property>
+			<property name="widgetPath.3">special://skin/extras/widgetplaylists/recentlyaddedmovies.xsp</property>
 			<onclick condition="String.IsEqual(Skin.String(HomeLayout),bingie) + $EXP[IsPlayingUnrecognizedContent]">PlayerControl(Stop)</onclick>
 			<onclick condition="[String.IsEmpty(Container(4445).NumItems) | Integer.IsEqual(Container(4445).NumItems,0)] | ![Skin.HasSetting(OpenSubMenuOnClick) | String.IsEqual(Skin.String(HomeLayout),win10)]">ActivateWindow(1111,return)</onclick>
 			<property name="path">ActivateWindow(1111,return)</property>
@@ -216,16 +208,6 @@
 			<property name="background">$INFO[Window(Home).Property(SkinHelper.AllMusicBackground)]</property>
 			<property name="backgroundName">$ADDON[script.skin.helper.service 32048]</property>
 			<property name="widgetstyle">None</property>
-			<property name="widget.7">categories</property>
-			<property name="widgetName.7">Categories</property>
-			<property name="widgetType.7">static</property>
-			<property name="widgetTarget.7">static</property>
-			<property name="widgetPath.7">$INCLUDE[CategoriesWidget]</property>
-			<property name="widgetstyle.7">landscape</property>
-			<property name="widgetstyle.7.name">Landscape</property>
-			<property name="widgetstyle.7Name">Landscape</property>
-			<property name="widgetstyle.name">None (use global setting)</property>
-			<property name="widgetstyleName">None (use global setting)</property>
 			<property name="widget.6">mylist</property>
 			<property name="widgetName.6">My List</property>
 			<property name="widgetType.6">video</property>

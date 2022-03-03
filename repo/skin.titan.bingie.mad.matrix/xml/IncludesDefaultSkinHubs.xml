@@ -36,7 +36,7 @@
         <!-- movies hub - widget 5 -->
         <onload>Skin.SetString(bingiehub-movies-550.label)[CAPITALIZE]$LOCALIZE[31078][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-550.target, videos)</onload>
-        <onload>Skin.SetString(bingiehub-movies-550.path, plugin://script.skin.helper.widgets/?action=playlist&mediatype=movies&tag=[blockbustermovies]</onload>
+        <onload>Skin.SetString(bingiehub-movies-550.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=movies&amp;tag=[blockbustermovies]</onload>
         <!-- movies hub - widget 6 -->
         <onload>Skin.SetString(bingiehub-movies-560.label)[CAPITALIZE]$LOCALIZE[31164][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-movies-560.target, videos)</onload>
@@ -79,10 +79,6 @@
         <onload>Skin.SetString(bingiehub-tvshows-570.label, [CAPITALIZE]$LOCALIZE[31181][/CAPITALIZE])</onload>
         <onload>Skin.SetString(bingiehub-tvshows-570.target, videos)</onload>
         <onload>Skin.SetString(bingiehub-tvshows-570.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=tvshows&amp;tag=[netflixoriginalseries]</onload>
-        <!-- tvshows hub - widget 8 -->
-        <onload>Skin.SetString(bingiehub-tvshows-580.label, [CAPITALIZE]$LOCALIZE[31160][/CAPITALIZE])</onload>
-        <onload>Skin.SetString(bingiehub-tvshows-580.target, videos)</onload>
-        <onload>Skin.SetString(bingiehub-tvshows-580.path, plugin://script.skin.helper.widgets/?action=playlist&amp;mediatype=tvshows&amp;tag=[docuseries]</onload>
 
         <!-- NEW HUB -->
         <!-- new hub - widget 1 -->
