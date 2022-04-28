@@ -132,7 +132,7 @@
                     <visible>true</visible>
                     <texturesliderbackground colordiffuse="40000000" border="5">plugin.video.plexkodiconnect/white-square.png</texturesliderbackground>
                     <texturesliderbar colordiffuse="77FFFFFF" border="5">plugin.video.plexkodiconnect/white-square.png</texturesliderbar>
-                    <texturesliderbarfocus colordiffuse="FFE5A00D" border="5">plugin.video.plexkodiconnect/white-square.png</texturesliderbarfocus>
+                    <texturesliderbarfocus colordiffuse="ff0000" border="5">plugin.video.plexkodiconnect/white-square.png</texturesliderbarfocus>
                     <textureslidernib>-</textureslidernib>
                     <textureslidernibfocus>-</textureslidernibfocus>
                     <pulseonselect>false</pulseonselect>
@@ -167,7 +167,7 @@
                     <focusedcolor>FF000000</focusedcolor>
                     <align>right</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>100</textoffsetx>
                     <textoffsety>0</textoffsety>

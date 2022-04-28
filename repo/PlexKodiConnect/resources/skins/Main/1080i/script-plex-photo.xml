@@ -103,7 +103,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/repeat-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/repeat-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/repeat.png</texturenofocus>
                         <usealttexture>!String.IsEmpty(Window.Property(pq.repeat))</usealttexture>
                         <alttexturefocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/repeat-focus.png</alttexturefocus>
@@ -133,7 +133,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/shuffle.png</texturenofocus>
                         <usealttexture>!String.IsEmpty(Window.Property(pq.shuffled))</usealttexture>
                         <alttexturefocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</alttexturefocus>
@@ -162,7 +162,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/rotate-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/rotate-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/rotate.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -178,7 +178,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus flipx="true" colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
+                        <texturefocus flipx="true" colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
                         <texturenofocus flipx="true" colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/next.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -203,10 +203,10 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/play-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/play-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/play.png</texturenofocus>
                         <usealttexture>!String.IsEmpty(Window.Property(playing))</usealttexture>
-                        <alttexturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/pause-focus.png</alttexturefocus>
+                        <alttexturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/pause-focus.png</alttexturefocus>
                         <alttexturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/pause.png</alttexturenofocus>
                         <label> </label>
                     </control>
@@ -219,7 +219,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/stop-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/stop-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/stop.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -233,7 +233,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/next.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -259,7 +259,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/square2x2-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/square2x2-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/square2x2.png</texturenofocus>
                         <usealttexture>!String.IsEmpty(Window.Property(show.pqueue))</usealttexture>
                         <alttexturefocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/square2x2-focus.png</alttexturefocus>
@@ -277,7 +277,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/info-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/info-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/info.png</texturenofocus>
                         <usealttexture>!String.IsEmpty(Window.Property(show.info))</usealttexture>
                         <alttexturefocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/info-focus.png</alttexturefocus>
@@ -296,7 +296,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/tags-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/tags-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/tags.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -310,7 +310,7 @@
                         <width>125</width>
                         <height>101</height>
                         <font>font12</font>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/more.png</texturenofocus>
                         <label> </label>
                     </control>

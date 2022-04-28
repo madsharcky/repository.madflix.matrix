@@ -60,7 +60,7 @@
                                 <width>35</width>
                                 <height>35</height>
                                 <texture>plugin.video.plexkodiconnect/indicators/playing-circle.png</texture>
-                                <colordiffuse>FFE5A00D</colordiffuse>
+                                <colordiffuse>ff0000</colordiffuse>
                             </control>
                             <control type="group">
                                 <visible>String.IsEmpty(ListItem.Property(video))</visible>
@@ -193,7 +193,7 @@
                                     <width>35</width>
                                     <height>35</height>
                                     <texture>plugin.video.plexkodiconnect/indicators/playing-circle.png</texture>
-                                    <colordiffuse>FFE5A00D</colordiffuse>
+                                    <colordiffuse>ff0000</colordiffuse>
                                 </control>
                                 <control type="group">
                                     <visible>String.IsEmpty(ListItem.Property(video))</visible>
@@ -316,7 +316,7 @@
                                     <width>999</width>
                                     <height>100</height>
                                     <texture border="12">plugin.video.plexkodiconnect/white-square-left-rounded.png</texture>
-                                    <colordiffuse>FFE5A00D</colordiffuse>
+                                    <colordiffuse>ff0000</colordiffuse>
                                 </control>
                                 <control type="image">
                                     <posx>999</posx>
@@ -457,7 +457,7 @@
                     <visible>true</visible>
                     <texturesliderbackground colordiffuse="40000000" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbackground>
                     <texturesliderbar colordiffuse="77FFFFFF" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbar>
-                    <texturesliderbarfocus colordiffuse="FFE5A00D" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbarfocus>
+                    <texturesliderbarfocus colordiffuse="ff0000" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbarfocus>
                     <textureslidernib>-</textureslidernib>
                     <textureslidernibfocus>-</textureslidernibfocus>
                     <pulseonselect>false</pulseonselect>

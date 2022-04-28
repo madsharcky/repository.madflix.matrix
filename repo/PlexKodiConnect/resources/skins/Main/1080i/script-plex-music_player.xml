@@ -265,7 +265,7 @@
                         <posy>0</posy>
                         <width>125</width>
                         <height>101</height>
-                        <texture colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/repeat-focus.png</texture>
+                        <texture colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/repeat-focus.png</texture>
                     </control>
                     <control type="image">
                         <visible>Playlist.IsRepeat | !String.IsEmpty(Window.Property(pq.repeat))</visible>
@@ -296,7 +296,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/shuffle.png</texturenofocus>
                 <usealttexture>Playlist.IsRandom</usealttexture>
                 <alttexturefocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</alttexturefocus>
@@ -342,7 +342,7 @@
                         <posy>0</posy>
                         <width>125</width>
                         <height>101</height>
-                        <texture colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texture>
+                        <texture colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texture>
                     </control>
                 </control>
                 <control type="group">
@@ -376,7 +376,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus flipx="true" colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
+                <texturefocus flipx="true" colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
                 <texturenofocus flipx="true" colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/next.png</texturenofocus>
                 <label> </label>
             </control>
@@ -389,10 +389,10 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/pause-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/pause-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/pause.png</texturenofocus>
                 <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-                <alttexturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/play-focus.png</alttexturefocus>
+                <alttexturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/play-focus.png</alttexturefocus>
                 <alttexturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/play.png</alttexturenofocus>
                 <!-- <enable>Player.PauseEnabled</enable> -->
                 <onclick>PlayerControl(Play)</onclick>
@@ -407,7 +407,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/stop-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/stop-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/stop.png</texturenofocus>
                 <onclick>PlayerControl(Stop)</onclick>
                 <label> </label>
@@ -422,7 +422,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/next-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/next.png</texturenofocus>
                 <label> </label>
             </control>
@@ -437,7 +437,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/pqueue-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/pqueue-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/pqueue.png</texturenofocus>
                 <label> </label>
             </control>
@@ -450,7 +450,7 @@
                 <width>125</width>
                 <height>101</height>
                 <font>font12</font>
-                <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
+                <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
                 <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/more.png</texturenofocus>
                 <label> </label>
             </control>
@@ -479,7 +479,7 @@
                 <width>1</width>
                 <height>8</height>
                 <texture>plugin.video.plexkodiconnect/white-square.png</texture>
-                <colordiffuse>FFE5A00D</colordiffuse>
+                <colordiffuse>ff0000</colordiffuse>
             </control>
             <control type="progress">
                 <visible>!Control.HasFocus(100)</visible>
@@ -518,7 +518,7 @@
             <height>6</height>
             <visible>true</visible>
             <texturesliderbar>-</texturesliderbar>
-            <textureslidernib colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/white-square-6px.png</textureslidernib>
+            <textureslidernib colordiffuse="ff0000">plugin.video.plexkodiconnect/white-square-6px.png</textureslidernib>
             <textureslidernibfocus>-</textureslidernibfocus>
             <action>seek</action>
         </control> -->

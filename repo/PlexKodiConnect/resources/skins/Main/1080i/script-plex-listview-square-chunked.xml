@@ -113,7 +113,7 @@
                                         <align>left</align>
                                         <aligny>center</aligny>
                                         <textcolor>FFFFFFFF</textcolor>
-                                        <label>[B]$INFO[ListItem.Label][COLOR FFE5A00D]/[/COLOR][/B]</label>
+                                        <label>[B]$INFO[ListItem.Label][COLOR ff0000]/[/COLOR][/B]</label>
                                     </control>
                                 </control>
                             </control>
@@ -196,7 +196,7 @@
                                                 <align>left</align>
                                                 <aligny>center</aligny>
                                                 <textcolor>FFFFFFFF</textcolor>
-                                                <label>[B]$INFO[ListItem.Label][COLOR FFE5A00D]/[/COLOR][/B]</label>
+                                                <label>[B]$INFO[ListItem.Label][COLOR ff0000]/[/COLOR][/B]</label>
                                             </control>
                                         </control>
                                     </control>
@@ -229,7 +229,7 @@
                                     <width>1005</width>
                                     <height>76</height>
                                     <texture border="12">plugin.video.plexkodiconnect/white-square-rounded.png</texture>
-                                    <colordiffuse>FFE5A00D</colordiffuse>
+                                    <colordiffuse>ff0000</colordiffuse>
                                 </control>
 
                                 <control type="group">
@@ -311,7 +311,7 @@
                     <visible>true</visible>
                     <texturesliderbackground colordiffuse="40000000" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbackground>
                     <texturesliderbar colordiffuse="77FFFFFF" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbar>
-                    <texturesliderbarfocus colordiffuse="FFE5A00D" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbarfocus>
+                    <texturesliderbarfocus colordiffuse="ff0000" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texturesliderbarfocus>
                     <textureslidernib>-</textureslidernib>
                     <textureslidernibfocus>-</textureslidernibfocus>
                     <pulseonselect>false</pulseonselect>
@@ -349,7 +349,7 @@
                             <posy>0</posy>
                             <width>10</width>
                             <height>10</height>
-                            <texture colordiffuse="FFE5A00D" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texture>
+                            <texture colordiffuse="ff0000" border="5">plugin.video.plexkodiconnect/white-square-rounded.png</texture>
                         </control>
                     </control>
                     <control type="button" id="951">
@@ -397,7 +397,7 @@
                     <width>126</width>
                     <height>100</height>
                     <font>font12</font>
-                    <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/play-focus.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/play-focus.png</texturefocus>
                     <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/play.png</texturenofocus>
                     <label> </label>
                 </control>
@@ -410,7 +410,7 @@
                     <width>126</width>
                     <height>100</height>
                     <font>font12</font>
-                    <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/shuffle-focus.png</texturefocus>
                     <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/shuffle.png</texturenofocus>
                     <label> </label>
                 </control>
@@ -424,7 +424,7 @@
                     <width>126</width>
                     <height>100</height>
                     <font>font12</font>
-                    <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/more-focus.png</texturefocus>
                     <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/more.png</texturenofocus>
                     <label> </label>
                 </control>
@@ -438,7 +438,7 @@
                     <width>126</width>
                     <height>100</height>
                     <font>font12</font>
-                    <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/chapters-focus.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/chapters-focus.png</texturefocus>
                     <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/chapters.png</texturenofocus>
                     <label> </label>
                 </control>
@@ -652,7 +652,7 @@
                                 <posy>0</posy>
                                 <width>34</width>
                                 <height>34</height>
-                                <colordiffuse>FFE5A00D</colordiffuse>
+                                <colordiffuse>ff0000</colordiffuse>
                                 <texture border="12">plugin.video.plexkodiconnect/white-outline-rounded.png</texture>
                             </control>
                         </control>
@@ -688,7 +688,7 @@
                         <ondown>50</ondown>
                         <font>font12</font>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/home-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/home-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/home.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -715,7 +715,7 @@
                         <ondown>50</ondown>
                         <font>font12</font>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/search.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -739,7 +739,7 @@
                     <focusedcolor>FF000000</focusedcolor>
                     <align>right</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>100</textoffsetx>
                     <textoffsety>0</textoffsety>
@@ -855,7 +855,7 @@
                     <focusedcolor>FF000000</focusedcolor>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>0</textoffsety>
@@ -888,7 +888,7 @@
                     <disabledcolor>FFFFFFFF</disabledcolor>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>0</textoffsety>
@@ -902,7 +902,7 @@
                     <focusedcolor>FF000000</focusedcolor>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>0</textoffsety>

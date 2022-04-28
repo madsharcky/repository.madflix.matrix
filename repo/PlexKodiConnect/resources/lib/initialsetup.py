@@ -509,7 +509,7 @@ class InitialSetup(object):
                 xml.set_setting(['video', 'playcountminimumpercent'],
                                 value='90')
                 xml.set_setting(['video', 'ignoresecondsatstart'],
-                                value='60')
+                                value='120')
                 reboot = xml.write_xml
         except utils.ParseError:
             cache = None
@@ -615,9 +615,9 @@ class InitialSetup(object):
             return
 
         LOG.info('Showing install questions')
-        if not utils.default_kodi_skin_warning_message():
-            LOG.info('Aborting initial setup due to skin')
-            return
+        # if not utils.default_kodi_skin_warning_message():
+        #     LOG.info('Aborting initial setup due to skin')
+        #     return
         # Additional settings where the user needs to choose
         # Direct paths (\\NAS\mymovie.mkv) or addon (http)?
         goto_settings = False
@@ -625,50 +625,50 @@ class InitialSetup(object):
         # Use Add-on Paths (default, easy) or Direct Paths? PKC will not work
         # if your Direct Paths setup is wrong!
         # Buttons: Add-on Paths // Direct Paths
-        if optionsdialog.show(utils.lang(29999), utils.lang(39080),
-                              utils.lang(39081), utils.lang(39082)) == 1:
-            LOG.debug("User opted to use direct paths.")
-            utils.settings('useDirectPaths', value="1")
-            if cleanonupdate:
-                # Re-enable cleanonupdate
-                with utils.XmlKodiSetting('advancedsettings.xml') as xml:
-                    xml.set_setting(['videolibrary', 'cleanonupdate'],
-                                    value='true')
-            # Are you on a system where you would like to replace paths
-            # \\NAS\mymovie.mkv with smb://NAS/mymovie.mkv? (e.g. Windows)
-            if utils.yesno_dialog(utils.lang(29999), utils.lang(39033)):
-                LOG.debug("User chose to replace paths with smb")
-            else:
-                utils.settings('replaceSMB', value="false")
+        # if optionsdialog.show(utils.lang(29999), utils.lang(39080),
+        #                       utils.lang(39081), utils.lang(39082)) == 1:
+        #     LOG.debug("User opted to use direct paths.")
+        #     utils.settings('useDirectPaths', value="1")
+        #     if cleanonupdate:
+        #         # Re-enable cleanonupdate
+        #         with utils.XmlKodiSetting('advancedsettings.xml') as xml:
+        #             xml.set_setting(['videolibrary', 'cleanonupdate'],
+        #                             value='true')
+        #     # Are you on a system where you would like to replace paths
+        #     # \\NAS\mymovie.mkv with smb://NAS/mymovie.mkv? (e.g. Windows)
+        #     if utils.yesno_dialog(utils.lang(29999), utils.lang(39033)):
+        #         LOG.debug("User chose to replace paths with smb")
+        #     else:
+        #         utils.settings('replaceSMB', value="false")
 
-            # complete replace all original Plex library paths with custom SMB
-            if utils.yesno_dialog(utils.lang(29999), utils.lang(39043)):
-                LOG.debug("User chose custom smb paths")
-                utils.settings('remapSMB', value="true")
-                # Please enter your custom smb paths in the settings under
-                # "Sync Options" and then restart Kodi
-                utils.messageDialog(utils.lang(29999), utils.lang(39044))
-                goto_settings = True
+        #     # complete replace all original Plex library paths with custom SMB
+        #     if utils.yesno_dialog(utils.lang(29999), utils.lang(39043)):
+        #         LOG.debug("User chose custom smb paths")
+        #         utils.settings('remapSMB', value="true")
+        #         # Please enter your custom smb paths in the settings under
+        #         # "Sync Options" and then restart Kodi
+        #         utils.messageDialog(utils.lang(29999), utils.lang(39044))
+        #         goto_settings = True
 
-            # Go to network credentials?
-            if utils.yesno_dialog(utils.lang(39029), utils.lang(39030)):
-                LOG.debug("Presenting network credentials dialog.")
-                from .windows import direct_path_sources
-                direct_path_sources.start()
+        #     # Go to network credentials?
+        #     if utils.yesno_dialog(utils.lang(39029), utils.lang(39030)):
+        #         LOG.debug("Presenting network credentials dialog.")
+        #         from .windows import direct_path_sources
+        #         direct_path_sources.start()
         # Disable Plex music?
-        if utils.yesno_dialog(utils.lang(29999), utils.lang(39016)):
-            LOG.debug("User opted to disable Plex music library.")
-            utils.settings('enableMusic', value="false")
+        # if utils.yesno_dialog(utils.lang(29999), utils.lang(39016)):
+        #     LOG.debug("User opted to disable Plex music library.")
+        utils.settings('enableMusic', value="false")
 
         # Download additional art from FanArtTV
-        if utils.yesno_dialog(utils.lang(29999), utils.lang(39061)):
-            LOG.debug("User opted to use FanArtTV")
-            utils.settings('FanartTV', value="true")
+        # if utils.yesno_dialog(utils.lang(29999), utils.lang(39061)):
+        #     LOG.debug("User opted to use FanArtTV")
+        utils.settings('FanartTV', value="true")
         # Do you want to replace your custom user ratings with an indicator of
         # how many versions of a media item you posses?
-        if utils.yesno_dialog(utils.lang(29999), utils.lang(39718)):
-            LOG.debug("User opted to replace user ratings with version number")
-            utils.settings('indicate_media_versions', value="true")
+        # if utils.yesno_dialog(utils.lang(29999), utils.lang(39718)):
+        #     LOG.debug("User opted to replace user ratings with version number")
+        #     utils.settings('indicate_media_versions', value="true")
 
         # If you use several Plex libraries of one kind, e.g. "Kids Movies" and
         # "Parents Movies", be sure to check https://goo.gl/JFtQV9
@@ -679,10 +679,10 @@ class InitialSetup(object):
         # Make sure that we only ask these questions upon first installation
         utils.settings('InstallQuestionsAnswered', value='true')
 
-        if goto_settings is False:
-            # Open Settings page now? You will need to restart!
-            goto_settings = utils.yesno_dialog(utils.lang(29999),
-                                               utils.lang(39017))
+        # if goto_settings is False:
+        #     # Open Settings page now? You will need to restart!
+        #     goto_settings = utils.yesno_dialog(utils.lang(29999),
+        #                                        utils.lang(39017))
         # New installation - make sure we start with a clean slate
         utils.wipe_database(reboot=False)
         if goto_settings:

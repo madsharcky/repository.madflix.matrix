@@ -36,6 +36,7 @@ class Generator:
 
         if not os.path.exists(self.zips_path):
             os.makedirs(self.zips_path)
+            print("Zip Folder Generated")
 
         self._remove_binaries()
 
@@ -81,6 +82,7 @@ class Generator:
         zip_folder = os.path.join(self.zips_path, addon_id)
         if not os.path.exists(zip_folder):
             os.makedirs(zip_folder)
+            print("Zip Folder Generated")
 
         final_zip = os.path.join(zip_folder, "{0}-{1}.zip".format(addon_id, version))
         if not os.path.exists(final_zip):
@@ -110,6 +112,7 @@ class Generator:
                     archive_name = os.path.join(archive_root, f)
                     zip.write(fullpath, archive_name, zipfile.ZIP_DEFLATED)
 
+            print("Zips generated")
             zip.close()
 
     def _copy_meta_files(self, addon_id, addon_folder):
@@ -138,6 +141,7 @@ class Generator:
                 os.makedirs(asset_path)
 
             shutil.copy(addon_path, zips_path)
+        print("_copy_meta_files exexuted")
 
     def _generate_addons_file(self):
         """
@@ -212,8 +216,10 @@ class Generator:
                 open(file, "w").write(data)
         except Exception as e:
             print("An error occurred saving {0} file!\n{1}".format(file, e))
+        print("_save_file exexuted")
 
 
 if __name__ == "__main__":
     for release in [r for r in KODI_VERSIONS if os.path.exists(r)]:
         Generator(release)
+    print("Generatore released")

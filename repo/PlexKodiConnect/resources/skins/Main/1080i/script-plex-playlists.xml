@@ -375,7 +375,7 @@
                         <ondown>50</ondown>
                         <font>font12</font>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/home-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/home-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/home.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -402,7 +402,7 @@
                         <ondown>50</ondown>
                         <font>font12</font>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
                         <texturenofocus colordiffuse="99FFFFFF">plugin.video.plexkodiconnect/buttons/search.png</texturenofocus>
                         <label> </label>
                     </control>
@@ -425,7 +425,7 @@
                     <focusedcolor>FF000000</focusedcolor>
                     <align>right</align>
                     <aligny>center</aligny>
-                    <texturefocus colordiffuse="FFE5A00D" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
+                    <texturefocus colordiffuse="ff0000" border="10">plugin.video.plexkodiconnect/white-square-rounded.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textoffsetx>100</textoffsetx>
                     <textoffsety>0</textoffsety>

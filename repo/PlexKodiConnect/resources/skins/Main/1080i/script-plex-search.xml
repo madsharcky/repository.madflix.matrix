@@ -42,7 +42,7 @@
             <ondown>900</ondown>
             <font>font12</font>
             <focusedcolor>FF000000</focusedcolor>
-            <texturefocus colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
+            <texturefocus colordiffuse="ff0000">plugin.video.plexkodiconnect/buttons/search-focus.png</texturefocus>
             <texturenofocus colordiffuse="FFCC7B19">plugin.video.plexkodiconnect/buttons/search.png</texturenofocus>
             <onclick>Close</onclick>
             <label> </label>
@@ -212,7 +212,7 @@
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
                             <textcolor>00000000</textcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>$ADDON[plugin.video.plexkodiconnect 32345]</label>
                         </control>
@@ -236,7 +236,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label> </label>
                         </control>
@@ -260,7 +260,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label> </label>
                         </control>
@@ -284,7 +284,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label> </label>
                         </control>
@@ -308,7 +308,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label> </label>
                         </control>
@@ -749,7 +749,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>A</label>
                         </control>
@@ -773,7 +773,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>B</label>
                         </control>
@@ -797,7 +797,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>C</label>
                         </control>
@@ -821,7 +821,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>D</label>
                         </control>
@@ -845,7 +845,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>E</label>
                         </control>
@@ -869,7 +869,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>F</label>
                         </control>
@@ -898,7 +898,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>G</label>
                         </control>
@@ -922,7 +922,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>H</label>
                         </control>
@@ -946,7 +946,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>I</label>
                         </control>
@@ -970,7 +970,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>J</label>
                         </control>
@@ -994,7 +994,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>K</label>
                         </control>
@@ -1018,7 +1018,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>L</label>
                         </control>
@@ -1047,7 +1047,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>M</label>
                         </control>
@@ -1071,7 +1071,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>N</label>
                         </control>
@@ -1095,7 +1095,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>O</label>
                         </control>
@@ -1119,7 +1119,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>P</label>
                         </control>
@@ -1143,7 +1143,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>Q</label>
                         </control>
@@ -1167,7 +1167,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>R</label>
                         </control>
@@ -1196,7 +1196,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>S</label>
                         </control>
@@ -1220,7 +1220,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>T</label>
                         </control>
@@ -1244,7 +1244,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>U</label>
                         </control>
@@ -1268,7 +1268,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>V</label>
                         </control>
@@ -1292,7 +1292,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>W</label>
                         </control>
@@ -1316,7 +1316,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>X</label>
                         </control>
@@ -1345,7 +1345,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>Y</label>
                         </control>
@@ -1369,7 +1369,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>Z</label>
                         </control>
@@ -1393,7 +1393,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>0[B][/B]</label>
                         </control>
@@ -1417,7 +1417,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>1[B][/B]</label>
                         </control>
@@ -1441,7 +1441,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>2[B][/B]</label>
                         </control>
@@ -1465,7 +1465,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>3[B][/B]</label>
                         </control>
@@ -1494,7 +1494,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>4[B][/B]</label>
                         </control>
@@ -1518,7 +1518,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>5[B][/B]</label>
                         </control>
@@ -1542,7 +1542,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>6[B][/B]</label>
                         </control>
@@ -1566,7 +1566,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>7[B][/B]</label>
                         </control>
@@ -1590,7 +1590,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>8[B][/B]</label>
                         </control>
@@ -1614,7 +1614,7 @@
                             <align>center</align>
                             <aligny>center</aligny>
                             <focusedcolor>FF000000</focusedcolor>
-                            <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                            <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                             <texturenofocus>-</texturenofocus>
                             <label>9[B][/B]</label>
                         </control>
@@ -1668,7 +1668,7 @@
                         <align>center</align>
                         <aligny>center</aligny>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                         <texturenofocus>-</texturenofocus>
                         <label>$ADDON[plugin.video.plexkodiconnect 32322]</label>
                     </control>
@@ -1691,7 +1691,7 @@
                         <align>center</align>
                         <aligny>center</aligny>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                         <texturenofocus>-</texturenofocus>
                         <label>$ADDON[plugin.video.plexkodiconnect 32432]</label>
                     </control>
@@ -1714,7 +1714,7 @@
                         <align>center</align>
                         <aligny>center</aligny>
                         <focusedcolor>FF000000</focusedcolor>
-                        <texturefocus colordiffuse="FFE5A00D" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
+                        <texturefocus colordiffuse="ff0000" border="50">plugin.video.plexkodiconnect/white-square-rounded-with-shadow.png</texturefocus>
                         <texturenofocus>-</texturenofocus>
                         <label>$ADDON[plugin.video.plexkodiconnect 32433]</label>
                     </control>
@@ -1748,7 +1748,7 @@
                         <posy>0</posy>
                         <width>39</width>
                         <height>39</height>
-                        <texture colordiffuse="FFE5A00D">plugin.video.plexkodiconnect/indicators/spinner.png</texture>
+                        <texture colordiffuse="ff0000">plugin.video.plexkodiconnect/indicators/spinner.png</texture>
                     </control>
                 </control>
             </control>
